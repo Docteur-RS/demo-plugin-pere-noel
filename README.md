@@ -1,2 +1,3 @@
-# demo-plugin-pere-noel
-Plugin de démo pour la plateforme Vicki
+Want a more december like Vicki ?<br>
+Then download this plugin to enjoy some new chrismas interractions !<br>
+
