@@ -1,0 +1,23 @@
+{
+    "moduleName": "hoho",
+    "files": {
+        "frontEnd": [
+            {
+                "className": "fHoho",
+                "filePath": "fHoho"
+            }
+        ],
+        "backEnd": [
+            {
+                "objectName": "bHoho",
+                "filePath": "bHoho"
+            }
+        ],
+        "templates": [
+            {
+                "templateId": "yt",
+                "filePath": "yt"
+            }
+        ]
+    }
+}

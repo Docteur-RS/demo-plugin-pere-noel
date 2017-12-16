@@ -1,0 +1,25 @@
+{
+    "R|hohoho|hoho": {
+        "_response": "hoho|bHoho|intro",
+        "_jump": "mainSection"
+    },
+    "_comment": "bellow section is unused for now",
+    "S|question_show_video_ppn": {
+        "R|(yes|y|ok|go|go on|do it)": {
+            "_response": "FRONT|hoho|fHoho|showVideo",
+            "_jump": "mainSection"
+        },
+        "R|(no|n|nope|don't|dont)": {
+            "_response": "SYSFRONT|tchat|postMessage|Ok.",
+            "_jump": "mainSection"
+        }
+    },
+    "R|(christmas|chrismas)|(today('s)? vid(eo)?)|(vid(eo)?.*(to)?day('s)?)": {
+        "_response": "FRONT|hoho|fHoho|showVideo",
+        "_jump": "mainSection"
+    },
+    "L|put it on": {
+        "_response": "FRONT|hoho|fHoho|showVideo",
+        "_jump": "mainSection"
+    }
+}
