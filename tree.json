@@ -14,7 +14,7 @@
             "_jump": "mainSection"
         }
     },
-    "R|(christmas|chrismas)|(today('s)? vid(eo)?)|(vid(eo)?.*(to)?day('s)?)": {
+    "R|(carol)|(christmas|chrismas)|(today('s)? vid(eo)?)|(vid(eo)?.*(to)?day('s)?)": {
         "_response": "FRONT|hoho|fHoho|showVideo",
         "_jump": "mainSection"
     },

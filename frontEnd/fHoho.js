@@ -12,10 +12,14 @@ main.fHoho = Backbone.View.extend({
     showVideo: function ()
     {
         var link = main.modules.hoho.backEnd.bHoho.getLinkOfDay();
-        console.log("link = ", link);
-        
+        if (link === null)
+        {
+            main.tchat.postMessage("<b>Its not december anymore.</b> So no songs, sorry. You'll have to wait a little ;-)");
+            return;
+        }
+
         // When i'll have the time to use the yt embed API
-        
+
 //        var firstCard = main.cardMngr.addNewCard(true);
 //        var templateContainer = (main.cardMngr.getTemplate("hoho", "yt"))({url: link});
 //        firstCard.append(templateContainer);

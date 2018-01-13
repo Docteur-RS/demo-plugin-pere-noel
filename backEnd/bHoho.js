@@ -10,16 +10,9 @@ var bHoho = function (moduleSysMngr) {
     console.log("init module bHoho");
     var date = new Date();
     var iCurrentMonth = date.getMonth();
-    console.log("month = ", iCurrentMonth);
-    this.bIsDecember = null;
     if (iCurrentMonth !== 11)
-    {
-        this.bIsDecember = false;
         return;
-    }
-    this.bIsDecember = true;
     this.iCurrentDay = date.getDate();
-    console.log("day = ", this.iCurrentDay);
     this.links = [
         "https://www.youtube.com/watch?v=phGnFF0KyhQ",
         "https://youtu.be/phGnFF0KyhQ?t=1m14s",
@@ -58,6 +51,8 @@ bHoho.prototype.intro = function (paramFromTree, userText)
 
 bHoho.prototype.getLinkOfDay = function ()
 {
+    if (typeof(this.links) === "undefined")
+        return null;
     return this.links[this.iCurrentDay];
 };
 
